@@ -1,0 +1,369 @@
+/* Treehouse Techdegree Project 2 - Dave Harrison */
+
+/* Base Element Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #F5F5F5;
+  color: #939393;
+  line-height: 1.6;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+p {
+  font-size: .925rem;
+  margin: 0;
+  padding-bottom: .75rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+  font-weight: 900;
+  color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  margin: 1em auto;
+}
+
+/* Navigation Styles */
+
+.main-nav li {
+  background: #fff;
+  font-size: .95rem;
+  margin-top: 0.375em;
+  text-transform: uppercase;
+  border: 1px solid lightgrey;
+  border-radius: .5em;
+}
+
+.main-nav a {
+	padding: .65em 1em;
+	text-align: center;
+  display: block;
+}
+
+.footer-nav {
+  display: none;
+}
+
+/* Layout Styles */
+
+.container {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/* .nav-wrapper {
+  background-color: lightblue;
+}
+
+.banner-wrapper {
+  background-color: yellow;
+} */
+
+.name {
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.main-heading {
+  padding-bottom: 1.5em;
+}
+
+.banner-image {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  margin-bottom: 1.5em;
+  border: 1px solid lightgrey;
+  border-radius: .5em;
+}
+
+.main-content {
+  padding-bottom: 1.5rem;
+  background-color: #f3ffff;
+}
+
+.portfolio-details {
+  margin-bottom: .6rem;
+}
+
+.section {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: .95rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.skills {
+  color: black;
+  background-color: #ceffe9;
+}
+
+.core-skills {
+	text-align: center;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.core-skills li {
+  background: #fff;
+  font-size: .95rem;
+  padding: .5em 1em;
+  margin-top: .25rem;
+  border: 1px solid lightgrey;
+  border-radius: .5em;
+}
+
+.contact-me {
+  padding-bottom: 3rem;
+}
+
+.contact-info li {
+  margin-top: 1em;
+}
+
+.footer-row {
+  border-top: solid 1px lightgrey;
+  padding-top: 1.5rem;
+}
+
+.footer {
+  padding-bottom: 1.5rem;
+}
+
+.footer-name,
+.back-to-top {
+  font-size: .85em;
+  font-weight: 900;
+}
+
+.footer-name {
+  float: left;
+
+}
+
+.back-to-top {
+  float: right;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+  .container {
+    width: 92.5%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-wrapper {
+    padding-bottom: 1rem;
+  }
+
+  .name {
+    padding-top: 2.8rem;
+  }
+
+  .main-nav {
+    display: block;
+    margin: 0;
+    padding-top: .5rem;
+  }
+
+  .main-nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    background: none;
+    border: none;
+  }
+
+  .intro {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-right: 1em;
+    font-size: 1.2rem;
+  }
+
+  .banner-wrapper {
+    padding-bottom: 2rem;
+  }
+
+  .banner-image {
+    float: right;
+    width: 40%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .banner {
+    padding-bottom: 2rem;
+  }
+
+  .col {
+    float: left;
+    width: 50%;
+    padding-left: .3rem;
+    padding-right: .3rem;
+  }
+
+  .portfolio-info {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .skills-image {
+    float: right;
+    width: 40%;
+    padding-left: .4rem;
+    margin-top: 0;
+  }
+
+  .career {
+    float: left;
+    width: 60%;
+    padding-right: .4rem;
+    text-align: left;
+  }
+
+  .core-skills {
+    margin: 0;
+  }
+
+  .core-skills li {
+    background: none;
+    font-size: .95rem;
+    padding: 0;
+    margin-top: 0;
+    border: none;
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+
+  .section-info {
+    font-size: 1.2rem;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .contact-info {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    padding-bottom: 4rem;
+  }
+
+  .footer-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    width: 87.5%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .col {
+    width: 33.333%;
+    margin: 0 auto;
+  }
+  .name {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+    margin: 0;
+    padding-top: 2.6rem;
+  }
+
+  .main-nav a {
+    padding-right: 0;
+  }
+
+  .banner-image {
+    margin: 0;
+  }
+
+  .core-skills,
+  .skills-image {
+    padding-bottom: 2rem;
+  }
+
+  .section-info {
+    width: 60%;
+  }
+
+  .footer {
+    padding-bottom: 2rem;
+  }
+
+}
+
+/* Float Clearfix */
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
