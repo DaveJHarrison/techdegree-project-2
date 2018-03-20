@@ -89,14 +89,6 @@ img {
   padding-right: 1em;
 }
 
-/* .nav-wrapper {
-  background-color: lightblue;
-}
-
-.banner-wrapper {
-  background-color: yellow;
-} */
-
 .name {
   padding-top: 1rem;
   font-size: 1.5rem;
@@ -310,6 +302,11 @@ img {
     font-size: .8rem;
   }
 
+  .footer-nav a {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+
   .back-to-top {
     display: none;
   }
@@ -339,6 +336,7 @@ img {
 
   .main-nav a {
     padding-right: 0;
+    padding-left: 0;
   }
 
   .banner-image {
