@@ -126,7 +126,7 @@ img {
 }
 
 .skills {
-  color: black;
+  color: blue;
   background-color: #ceffe9;
 }
 
@@ -170,7 +170,6 @@ img {
 
 .footer-name {
   float: left;
-
 }
 
 .back-to-top {
@@ -339,6 +338,10 @@ img {
     padding-left: 0;
   }
 
+  .intro {
+    padding-right: 1.4em;
+  }
+
   .banner-image {
     margin: 0;
   }
@@ -355,7 +358,6 @@ img {
   .footer {
     padding-bottom: 2rem;
   }
-
 }
 
 /* Float Clearfix */
